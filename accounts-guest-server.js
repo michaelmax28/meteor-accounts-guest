@@ -116,11 +116,11 @@ function createGuestOptions(email) {
             guestname = Moniker.choose();
           }
         } else {
-          guestname = "guest-#" + Random.id();
+          guestname = "visitante-#" + Random.id();
         }
 
         if (!email) {
-            email = guestname + "@example.com";
+            email = guestname + "@ejemplo.com";
         }
 
         guest = {
